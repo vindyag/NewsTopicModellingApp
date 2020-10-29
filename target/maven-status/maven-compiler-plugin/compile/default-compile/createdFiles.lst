@@ -1,0 +1,11 @@
+ucsc/mcs/topic_modelling/TopicLabel.class
+ucsc/mcs/topic_modelling/WebController.class
+ucsc/mcs/topic_modelling/NewsFeedMessage.class
+ucsc/mcs/topic_modelling/NewsArticle.class
+ucsc/mcs/topic_modelling/WebApplicationMain.class
+ucsc/mcs/topic_modelling/entity/NewsFeedMessage.class
+ucsc/mcs/topic_modelling/UserInputTextInferencer$ValueComparator.class
+ucsc/mcs/topic_modelling/UserInputTextInferencer.class
+ucsc/mcs/topic_modelling/repository/NewsFeedRepository.class
+ucsc/mcs/topic_modelling/repository/NewsSourceRepository.class
+ucsc/mcs/topic_modelling/entity/NewsSource.class

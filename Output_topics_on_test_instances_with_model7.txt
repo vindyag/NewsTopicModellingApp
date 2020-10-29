@@ -1,0 +1,8 @@
+Model LogLikelihood : -123142.57666856339
+Topic probability for topic 0 : 4.4959
+Topic probability for topic 1 : 6.0074
+Topic probability for topic 2 : 3.0083
+Topic probability for topic 3 : 1.5199
+Topic probability for topic 4 : 16.4201
+Topic probability for topic 5 : 5.9977
+Topic probability for topic 6 : 62.5508

@@ -1,0 +1,20 @@
+INDEX VERSION 1.127+F:\MCS\NewsTopicModellingApp\.metadata\.plugins\org.eclipse.jdt.core
+2337291135.index
+4041467255.index
+2243214059.index
+3400136656.index
+1132269865.index
+2761753917.index
+842592737.index
+1576222504.index
+2956274624.index
+878089778.index
+2188993615.index
+2626381648.index
+786395379.index
+3434533505.index
+325287183.index
+804745050.index
+3543018073.index
+2441143816.index
+120845157.index

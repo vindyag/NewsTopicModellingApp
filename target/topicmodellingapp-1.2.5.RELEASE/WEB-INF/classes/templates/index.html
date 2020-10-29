@@ -1,0 +1,62 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Topic Identification</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="styles/default.css" rel="stylesheet" type="text/css" media="all" />
+<link href="styles/fonts.css" rel="stylesheet" type="text/css" media="all" />
+<link href="styles/css.css?family=Didact+Gothic" rel="stylesheet" type="text/css" media="all" />
+
+<!--[if IE 6]><link href="default_ie6.css" rel="stylesheet" type="text/css" /><![endif]-->
+</head>
+<body>
+<div>
+	<div class="container-text">
+		
+		<form method="post" style="float:left; margin-top:8em; ">
+		<div class="title">
+			<h1>Enter News Text Here :</h1>
+			<!-- <span class="byline" style="display:none;"></span> -->
+		</div>
+       <div > 
+	   <textarea rows="20" cols="80" id="newsText"></textarea></div>     
+		<ul class="actions">
+			<li><a class="button" onclick="clearText();">Clear</a></li>
+			<li><a class="button" onclick="submitText();">Submit</a></li>
+		</ul>
+		</form>		
+		<div id="resultsDiv" class="title" style="margin-top:9em; margin-bottom:2em; display:none; float:right;">
+			<h2>Results :</h2>
+			<center>
+				<div id="results" style="width:400px;">
+						<span style="float:left;width:210px;text-align: left;">BUSINESS AND FINANACE 1 : </span><span style="float:right;" id="businessAndFinance1"> : 02%</span><br/>
+						<span style="float:left;width:210px;text-align: left;">POLITICS : </span><span style="float:right;" id="politics"> : 08%</span><br/>
+						<span style="float:left;width:210px;text-align: left;">ENTERTAINMENT : </span><span style="float:right;" id="entertainment"> : 15%</span><br/>
+						<span style="float:left;width:210px;text-align: left;">GENERAL : </span><span style="float:right;" id="general"> : 10%</span><br/>
+						<span style="float:left;width:210px;text-align: left;">TRAVEL AND TOURISM : </span><span style="float:right;" id="travelAndTourism"> : 65%</span><br/>
+						<span style="float:left;width:210px;text-align: left;">SPORTS : </span><span style="float:right;" id="sports"> : 02%</span><br/>
+						<span style="float:left;width:210px;text-align: left;">BUSINESS AND FINANACE 2 : </span><span style="float:right;" id="businessAndFinance2"> : 02%</span><br/>
+				</div>
+			</center>
+		</div>
+		<div id="errorDiv" class="title" style="margin-top:2em; display:none; float:right;color:#ee0000;">
+			<h3>Oops!</h3>
+			<br/>
+			<center>
+				<div style="width:400px;">
+						<span id="errorText" style="width:200px;">Unexpected error occurred! Please try again later. </span>
+				</div>
+			</center>
+		</div>			
+	</div>
+	</div>
+<div id="copyright" class="container">
+	<p>&copy; <a href="#" rel="nofollow">Vindya Gunawardena</a>.</p>
+</div>
+ <script src="js/jquery.min.js"></script>
+ <script src="js/scripts.js"></script>
+</body>
+</html>
